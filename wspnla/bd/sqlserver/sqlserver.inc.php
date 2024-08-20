@@ -1,0 +1,6 @@
+<?php
+require_once(__DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'adodb'.DIRECTORY_SEPARATOR.'adodb.inc.php');
+
+define('USAR_NAMED_PARAMETERS',false);
+define('FORMATO_LIKE_SQL_SERVER','%s COLLATE Latin1_general_CI_AI Like %s');
+define('FORMATACAO_PARAMETRO_DATA_SQL_SERVER',PARAMETRO);
